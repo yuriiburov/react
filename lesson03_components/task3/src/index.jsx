@@ -5,7 +5,7 @@ import Comment from './Comment';
 
 const userInfo = {
   name: 'Tom',
-  avatarUrl: 'https://avatars1.githubusercontent.com',
+  avatarUrl: 'https://avatars1.githubusercontent.com/users',
 };
 
 ReactDOM.render(
