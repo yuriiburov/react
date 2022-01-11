@@ -1,1 +1,22 @@
+@keyframes rotate {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 
+.profile {
+  text-align: center;
+  animation: rotate 7s infinite ease-out;
+}
