@@ -22,12 +22,12 @@ body {
   margin: 8px;
   width: 150px;
   display: flex;
-}
 
-.user__age {
-  font-weight: 700;
-  opacity: 0.5;
-  margin-left: auto;
+  &__age {
+    font-weight: 700;
+    opacity: 0.5;
+    margin-left: auto;
+  }
 }
 
 .btn {
