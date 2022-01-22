@@ -21,7 +21,7 @@ class User extends React.Component {
 
   render() {
     const { user } = this.state;
-    if (user === null) {
+    if (!user) {
       return null;
     }
 
