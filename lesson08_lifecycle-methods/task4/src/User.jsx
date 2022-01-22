@@ -29,12 +29,9 @@ class User extends React.Component {
 
     return (
       <div class="user">
-        {/* avatar_url */}
         <img alt="User Avatar" src={avatar_url} class="user__avatar" />
         <div class="user__info">
-          {/* name */}
           <span class="user__name">{name}</span>
-          {/* location */}
           <span class="user__location">{location}</span>
         </div>
       </div>
