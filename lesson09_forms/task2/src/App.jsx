@@ -3,7 +3,7 @@ import UserForm from './UserForm';
 
 class App extends React.Component {
   createUser = (data) => (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     console.log(data);
   };
 
