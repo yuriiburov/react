@@ -15,7 +15,7 @@ class UserForm extends React.Component {
             (acc, [name, value]) => ({ ...acc, [name]: value }),
             {}
           );
-          this.props.handleSubmit(formData);
+          this.props.onSubmit(formData);
           e.preventDefault();
         }}
       >
