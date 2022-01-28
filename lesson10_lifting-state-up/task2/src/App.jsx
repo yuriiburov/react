@@ -5,8 +5,8 @@ import ShoppingCart from './ShoppingCart';
 class Page extends React.Component {
   state = {
     userData: {
-      firstName: 'Tom',
-      lastName: 'Form',
+      firstName: 'John',
+      lastName: 'Doe',
     },
   };
 
