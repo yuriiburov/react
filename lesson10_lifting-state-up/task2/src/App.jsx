@@ -10,8 +10,8 @@ class App extends React.Component {
     },
   };
 
-  handleChange = (e) => {
-    const { name, value } = e.target;
+  handleChange = (event) => {
+    const { name, value } = event.target;
     this.setState({
       userData: {
         ...this.state.userData,
@@ -26,7 +26,7 @@ class App extends React.Component {
       <div className="page">
         <h1 className="title">{`Hello, ${userData.firstName} ${userData.lastName}`}</h1>
         <main className="content">
-          <ShoppingCart userData={userData} />
+          <ShoppingCart userName={userData.firstName} />
           <Profile userData={userData} handleChange={this.handleChange} />
         </main>
       </div>
