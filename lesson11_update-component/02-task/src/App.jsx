@@ -13,11 +13,16 @@ class App extends React.Component {
   };
 
   render() {
-    const elem = <p>Some text</p>;
+    const elem = (
+      <p>
+        Use immutable array methods to work with data. It will help to avoid
+        bugs
+      </p>
+    );
     return (
       <div className="app">
         <button className="btn" onClick={this.showDialog}>
-          Show
+          Show dialog
         </button>
         <Dialog
           isOpen={this.state.isOpen}
