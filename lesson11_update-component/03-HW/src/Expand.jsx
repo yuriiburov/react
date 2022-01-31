@@ -11,9 +11,9 @@ class Expand extends React.Component {
             onClick={this.props.additionalContent}
           >
             {this.props.showContent ? (
-              <i className="fas fa-chevron-up expand__arrow"></i>
-            ) : (
               <i className="fas fa-chevron-up"></i>
+            ) : (
+              <i className="fas fa-chevron-down"></i>
             )}
           </button>
         </div>
