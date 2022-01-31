@@ -10,10 +10,11 @@ class Expand extends React.Component {
   };
 
   render() {
+    const { title, children } = this.props;
     return (
       <div className="expand border">
         <div className="expand__header">
-          <span className="expand__title">Some title</span>
+          <span className="expand__title">{title}</span>
           <button className="expand__toggle-btn" onClick={this.handleClick}>
             {this.state.isShow ? (
               <i className="fas fa-chevron-up"></i>
@@ -23,7 +24,7 @@ class Expand extends React.Component {
           </button>
         </div>
         {this.state.isShow ? (
-          <div className="expand__content">{this.props.children}</div>
+          <div className="expand__content">{children}</div>
         ) : null}
       </div>
     );
