@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const App = () => {
+const Counter = () => {
   const [counter, setCounter] = useState(0);
 
   return (
@@ -31,4 +31,4 @@ const App = () => {
 // 3. declare state and props
 // 4. write logic
 
-export default App;
+export default Counter;
